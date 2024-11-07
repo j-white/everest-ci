@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 ARG BASE_IMAGE_TAG=latest
-FROM ghcr.io/everest/everest-ci/build-env-base:${BASE_IMAGE_TAG}
+FROM ghcr.io/j-white/everest-ci/build-env-base:${BASE_IMAGE_TAG}
 
 ENV WORKSPACE_PATH=/workspace
 ARG EXT_MOUNT=/ext

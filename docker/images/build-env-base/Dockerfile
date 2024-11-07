@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 ARG BASE_IMAGE_TAG=latest
-FROM ghcr.io/everest/everest-ci/run-env-base:${BASE_IMAGE_TAG}
+FROM ghcr.io/j-white/everest-ci/run-env-base:${BASE_IMAGE_TAG}
 
 # renovate: datasource=repology depName=debian_12/git versioning=loose
 ENV GIT_VERSION=1:2.39.5-0+deb12u1
